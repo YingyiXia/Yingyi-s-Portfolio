@@ -5,6 +5,14 @@ import { About } from './components/About';
 import { Upload } from './components/Upload';
 import { Photo, UserProfile, ViewState, ToastMessage } from './types';
 
+export default function App() {
+  return (
+    <h1 style={{ fontSize: "40px", textAlign: "center", marginTop: "100px" }}>
+      Hi, this is working!
+    </h1>
+  );
+}
+
 // Initial Mock Data
 const INITIAL_PHOTOS: Photo[] = [
   {
